@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="form">
+            <form action="#" id="form" class="form__body">
+                <h1 class="form__title">Գրանցվել</h1>
+                <div class="form__item">
+                    <label for="formName" class="form__label">Name*:</label>
+                    <input type="text" id="formName" name="name" class="form__input">
+                </div>
+                <div class="form__item">
+                    <label for="formSurname" class="form__label">Surname*:</label>
+                    <input id="formSurname" class="form__input"></input>
+                </div>
+                <div class="form__item">
+                    <label for="formEmail" class="form__label">E-mail*:</label>
+                    <input id="formEmail" type="email" name="email" class="form__input"></input>
+                </div>
+                <div class="form__item">
+                    <label for="formPass"  class="form__label">Password:</label>
+                    <input id="formPass" type="password" class="form__input"></input>
+                </div>
+                <div class="form__item">
+                    <label for="formConfirm" class="form__label">Confirm password:</label>
+                    <input id="formConfirm" type="password" class="form__input"></input>
+                </div>
+                <div class="form__btn">
+                    <button class="btn" type="submit">SEND</button>
+                </div>
+                <div class="result"></div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
